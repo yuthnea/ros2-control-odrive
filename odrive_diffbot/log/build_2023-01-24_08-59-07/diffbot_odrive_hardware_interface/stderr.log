@@ -1,0 +1,27 @@
+CMake Error at CMakeLists.txt:46 (add_library):
+  Cannot find source file:
+
+    diffbot_odrive_hardware_interface/odrive_hardware_interface.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:32 (add_library):
+  Cannot find source file:
+
+    diffbot_odrive_hardware_interface/odrive_usb.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:46 (add_library):
+  No SOURCES given to target: diffbot_odrive_hardware_interface
+
+
+CMake Error at CMakeLists.txt:32 (add_library):
+  No SOURCES given to target: odrive_usb
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

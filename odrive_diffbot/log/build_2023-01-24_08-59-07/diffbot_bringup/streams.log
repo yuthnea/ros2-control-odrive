@@ -1,0 +1,48 @@
+[0.140s] Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup
+[0.618s] -- The C compiler identification is GNU 9.4.0
+[1.017s] -- The CXX compiler identification is GNU 9.4.0
+[1.048s] -- Check for working C compiler: /usr/bin/cc
+[1.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.312s] -- Detecting C compiler ABI info
+[1.599s] -- Detecting C compiler ABI info - done
+[1.651s] -- Detecting C compile features
+[1.654s] -- Detecting C compile features - done
+[1.665s] -- Check for working CXX compiler: /usr/bin/c++
+[1.977s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.983s] -- Detecting CXX compiler ABI info
+[2.352s] -- Detecting CXX compiler ABI info - done
+[2.399s] -- Detecting CXX compile features
+[2.403s] -- Detecting CXX compile features - done
+[2.445s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.568s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.359s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.923s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.929s] -- Added test 'lint_cmake' to check CMake code style
+[4.929s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.950s] -- Added test 'xmllint' to check XML markup files
+[4.959s] -- Configuring done
+[4.974s] -- Generating done
+[4.987s] -- Build files have been written to: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup
+[5.004s] Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup
+[5.018s] Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup -- -j4 -l4
+[5.394s] Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup -- -j4 -l4
+[5.612s] Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup
+[5.656s] -- Install configuration: ""
+[5.664s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/ament_index/resource_index/package_run_dependencies/diffbot_bringup
+[5.665s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/ament_index/resource_index/parent_prefix_path/diffbot_bringup
+[5.665s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/environment/ament_prefix_path.sh
+[5.665s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/environment/ament_prefix_path.dsv
+[5.666s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/environment/path.sh
+[5.666s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/environment/path.dsv
+[5.667s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/local_setup.bash
+[5.667s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/local_setup.sh
+[5.668s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/local_setup.zsh
+[5.669s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/local_setup.dsv
+[5.669s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.dsv
+[5.670s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/ament_index/resource_index/packages/diffbot_bringup
+[5.671s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/cmake/diffbot_bringupConfig.cmake
+[5.671s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/cmake/diffbot_bringupConfig-version.cmake
+[5.671s] -- Installing: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.xml
+[5.800s] Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup

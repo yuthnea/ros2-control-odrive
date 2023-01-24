@@ -1,0 +1,78 @@
+[0.097s] Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface
+[0.564s] -- The C compiler identification is GNU 9.4.0
+[0.952s] -- The CXX compiler identification is GNU 9.4.0
+[0.979s] -- Check for working C compiler: /usr/bin/cc
+[1.389s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.391s] -- Detecting C compiler ABI info
+[1.641s] -- Detecting C compiler ABI info - done
+[1.691s] -- Detecting C compile features
+[1.691s] -- Detecting C compile features - done
+[1.698s] -- Check for working CXX compiler: /usr/bin/c++
+[2.024s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.026s] -- Detecting CXX compiler ABI info
+[2.459s] -- Detecting CXX compiler ABI info - done
+[2.527s] -- Detecting CXX compile features
+[2.530s] -- Detecting CXX compile features - done
+[2.555s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.774s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.774s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.692s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[5.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.123s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.759s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.121s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.315s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.326s] -- Looking for pthread.h
+[8.529s] -- Looking for pthread.h - found
+[8.530s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.702s] -- Looking for pthread_create in pthreads
+[8.827s] -- Looking for pthread_create in pthreads - not found
+[8.827s] -- Looking for pthread_create in pthread
+[8.975s] -- Looking for pthread_create in pthread - found
+[8.978s] -- Found Threads: TRUE  
+[9.399s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[9.402s] -- Checking for one of the modules 'libusb-1.0'
+[9.560s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.730s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.733s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.734s] -- Configured cppcheck include dirs: /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface/include
+[9.734s] -- Configured cppcheck exclude dirs and/or files: 
+[9.737s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.737s] -- Configured cpplint exclude dirs and/or files: 
+[9.739s] -- Added test 'lint_cmake' to check CMake code style
+[9.742s] -- Added test 'uncrustify' to check C / C++ code style
+[9.742s] -- Configured uncrustify additional arguments: 
+[9.743s] -- Added test 'xmllint' to check XML markup files
+[9.752s] -- Configuring done
+[9.755s] CMake Error at CMakeLists.txt:46 (add_library):
+[9.755s]   Cannot find source file:
+[9.756s] 
+[9.756s]     diffbot_odrive_hardware_interface/odrive_hardware_interface.cpp
+[9.756s] 
+[9.757s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[9.757s]   .hpp .hxx .in .txx
+[9.757s] 
+[9.757s] 
+[9.758s] CMake Error at CMakeLists.txt:32 (add_library):
+[9.759s]   Cannot find source file:
+[9.759s] 
+[9.759s]     diffbot_odrive_hardware_interface/odrive_usb.cpp
+[9.759s] 
+[9.760s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[9.760s]   .hpp .hxx .in .txx
+[9.760s] 
+[9.760s] 
+[9.761s] CMake Error at CMakeLists.txt:46 (add_library):
+[9.761s]   No SOURCES given to target: diffbot_odrive_hardware_interface
+[9.761s] 
+[9.761s] 
+[9.761s] CMake Error at CMakeLists.txt:32 (add_library):
+[9.761s]   No SOURCES given to target: odrive_usb
+[9.762s] 
+[9.762s] 
+[9.762s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[9.778s] Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_odrive_hardware_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface

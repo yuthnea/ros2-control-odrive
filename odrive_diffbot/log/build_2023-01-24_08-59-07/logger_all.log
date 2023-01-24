@@ -1,0 +1,293 @@
+[0.542s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.542s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5aedab60a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5aedab60a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5aedab6550>)
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_bringup) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'diffbot_bringup' with type 'ros.ament_cmake' and name 'diffbot_bringup'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_description) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'diffbot_description' with type 'ros.ament_cmake' and name 'diffbot_description'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_odrive_hardware_interface) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'diffbot_odrive_hardware_interface' with type 'ros.ament_cmake' and name 'diffbot_odrive_hardware_interface'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(diffbot_ros2_control) by extension 'ros'
+[0.681s] DEBUG:colcon.colcon_core.package_identification:Package 'diffbot_ros2_control' with type 'ros.ament_cmake' and name 'diffbot_ros2_control'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.773s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/foxy
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'diffbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.991s] DEBUG:colcon.colcon_core.verb:Building package 'diffbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup', 'merge_install': False, 'path': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_target' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.995s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.995s] DEBUG:colcon.colcon_core.verb:Building package 'diffbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description', 'merge_install': False, 'path': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.997s] Level 5:colcon.colcon_core.verb:set package 'diffbot_odrive_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.998s] DEBUG:colcon.colcon_core.verb:Building package 'diffbot_odrive_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_odrive_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface', 'merge_install': False, 'path': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.999s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.999s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'diffbot_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.000s] DEBUG:colcon.colcon_core.verb:Building package 'diffbot_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control', 'merge_install': False, 'path': '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[1.001s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.008s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.009s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup' with build type 'ament_cmake'
+[1.009s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup'
+[1.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.060s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_description' with build type 'ament_cmake'
+[1.061s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_description'
+[1.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.086s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface' with build type 'ament_cmake'
+[1.086s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface'
+[1.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.112s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_ros2_control' with build type 'ament_cmake'
+[1.112s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_ros2_control'
+[1.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description
+[1.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_ros2_control -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control
+[5.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description
+[5.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description -- -j4 -l4
+[5.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_ros2_control -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control
+[5.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control -- -j4 -l4
+[6.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_bringup -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup
+[6.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup -- -j4 -l4
+[6.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description -- -j4 -l4
+[6.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control -- -j4 -l4
+[6.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description
+[6.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control
+[6.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup -- -j4 -l4
+[6.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_description)
+[6.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_description
+[6.472s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description' for CMake module files
+[6.478s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description' for CMake config files
+[6.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_description', 'cmake_prefix_path')
+[6.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.ps1'
+[6.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.dsv'
+[6.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.sh'
+[6.502s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/bin'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/lib/pkgconfig/diffbot_description.pc'
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/lib/python3.8/site-packages'
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/bin'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.ps1'
+[6.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.dsv'
+[6.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.sh'
+[6.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.bash'
+[6.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.zsh'
+[6.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/colcon-core/packages/diffbot_description)
+[6.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_ros2_control)
+[6.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_ros2_control
+[6.567s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control' for CMake module files
+[6.568s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control' for CMake config files
+[6.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_ros2_control', 'cmake_prefix_path')
+[6.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.ps1'
+[6.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.dsv'
+[6.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.sh'
+[6.582s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/bin'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/lib/pkgconfig/diffbot_ros2_control.pc'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/lib/python3.8/site-packages'
+[6.584s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/bin'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.ps1'
+[6.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.dsv'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.sh'
+[6.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.bash'
+[6.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.zsh'
+[6.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/colcon-core/packages/diffbot_ros2_control)
+[6.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup
+[6.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_description)
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description' for CMake module files
+[6.681s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description' for CMake config files
+[6.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_description', 'cmake_prefix_path')
+[6.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.ps1'
+[6.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.dsv'
+[6.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.sh'
+[6.693s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/bin'
+[6.693s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/lib/pkgconfig/diffbot_description.pc'
+[6.694s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/lib/python3.8/site-packages'
+[6.694s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/bin'
+[6.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.ps1'
+[6.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.dsv'
+[6.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.sh'
+[6.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.bash'
+[6.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/diffbot_description/package.zsh'
+[6.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_description/share/colcon-core/packages/diffbot_description)
+[6.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_ros2_control)
+[6.723s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control' for CMake module files
+[6.732s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control' for CMake config files
+[6.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_ros2_control', 'cmake_prefix_path')
+[6.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.ps1'
+[6.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.dsv'
+[6.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/hook/cmake_prefix_path.sh'
+[6.751s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/bin'
+[6.751s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/lib/pkgconfig/diffbot_ros2_control.pc'
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/lib/python3.8/site-packages'
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/bin'
+[6.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.ps1'
+[6.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.dsv'
+[6.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.sh'
+[6.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.bash'
+[6.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/diffbot_ros2_control/package.zsh'
+[6.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_ros2_control/share/colcon-core/packages/diffbot_ros2_control)
+[6.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_bringup)
+[6.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_bringup
+[6.814s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup' for CMake module files
+[6.815s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup' for CMake config files
+[6.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_bringup', 'cmake_prefix_path')
+[6.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.ps1'
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.dsv'
+[6.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.sh'
+[6.836s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/bin'
+[6.837s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/lib/pkgconfig/diffbot_bringup.pc'
+[6.838s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/lib/python3.8/site-packages'
+[6.838s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/bin'
+[6.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.ps1'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.dsv'
+[6.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.sh'
+[6.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.bash'
+[6.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.zsh'
+[6.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/colcon-core/packages/diffbot_bringup)
+[6.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_bringup)
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup' for CMake module files
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup' for CMake config files
+[6.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_bringup', 'cmake_prefix_path')
+[6.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.ps1'
+[6.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.dsv'
+[7.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/hook/cmake_prefix_path.sh'
+[7.027s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/bin'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/lib/pkgconfig/diffbot_bringup.pc'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/lib/python3.8/site-packages'
+[7.030s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/bin'
+[7.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.ps1'
+[7.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.dsv'
+[7.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.sh'
+[7.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.bash'
+[7.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/diffbot_bringup/package.zsh'
+[7.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_bringup/share/colcon-core/packages/diffbot_bringup)
+[10.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/build/diffbot_odrive_hardware_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/diffbot_odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface
+[10.897s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_odrive_hardware_interface)
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface' for CMake module files
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface' for CMake config files
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/bin'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/lib/pkgconfig/diffbot_odrive_hardware_interface.pc'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/lib/python3.8/site-packages'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/bin'
+[10.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/diffbot_odrive_hardware_interface/package.ps1'
+[10.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/diffbot_odrive_hardware_interface/package.dsv'
+[10.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/diffbot_odrive_hardware_interface/package.sh'
+[10.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/diffbot_odrive_hardware_interface/package.bash'
+[10.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/diffbot_odrive_hardware_interface/package.zsh'
+[10.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/diffbot_odrive_hardware_interface/share/colcon-core/packages/diffbot_odrive_hardware_interface)
+[10.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[10.928s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.951s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.025s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/local_setup.ps1'
+[11.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/_local_setup_util_ps1.py'
+[11.041s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/setup.ps1'
+[11.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/local_setup.sh'
+[11.049s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/_local_setup_util_sh.py'
+[11.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/setup.sh'
+[11.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/local_setup.bash'
+[11.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/setup.bash'
+[11.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/local_setup.zsh'
+[11.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/josef-reth/Workspaces/mydev_ws/src/odrive_diffbot/install/setup.zsh'
